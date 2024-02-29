@@ -1,0 +1,122 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color:  	#764208;
+    background-color:  	#cf9fb5;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    background-color: #cdcf9f;
+
+}
+
+nav ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+nav ul li{
+  color:	#b99fcf;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+  
+a:active {
+    color: #8dc11e;
+}
+
+article {
+    margin-left: 150px;
+    border-left: 7px solid  	#cf9fb5;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #9fb5cf;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+  font-family: optima;
+}
+
+
+
+#mexico{
+  color:green;
+}
+
+#londres{
+  color:rgb(0, 0, 0);
+}
+
+#paris{
+  color:blue;
+}
+
+#tokyo{
+  color:FireBrick;
+}
+
+#busan{
+  color: rgb(194, 15, 15);
+}
+
+#la{
+  color: rgba(17, 17, 212, 0.837);
+}
+#hk{
+  color: #ffe562;
+}
+#bangkok{
+  color: rgb(161, 4, 4);
+}
+
+
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  }
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+}
+.banderaBus{
+  background-image: url("../img/busan.jpg");
+}
+.banderaLA{
+  background-image: url("../img/eua.jpg");
+}
+.banderaHK{
+  background-image: url("../img/hk.jpg");
+}
+.banderaBang{
+  background-image: url("../img/thai.jpg");
+}
